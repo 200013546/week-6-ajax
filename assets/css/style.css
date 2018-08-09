@@ -1,0 +1,59 @@
+button,
+div,
+form,
+input {
+    margin: 10px;
+}
+
+body {
+    background-color: bisque;
+}
+
+#gif-form {
+    float: right;
+}
+
+input {
+    align-content: center;
+}
+
+#gifs-view {
+    width: 100%;
+}
+
+.gif-btn {
+    margin: 3px;
+}
+
+.gif {
+    float: left;
+    width: 30%;
+    margin: 5px;
+
+}
+#buttons-view {
+    float: left;
+    width: 75%;
+}
+
+#add-gif {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+      background-color: rgb(245, 211, 170);
+    }
+    #buttons-view {
+        width: 50%;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+body {
+    background-color: rgb(235, 206, 172);
+}
+#buttons-view {
+    width: 20%;
+}
+}
